@@ -1,0 +1,108 @@
+    body{
+        height:902px;
+        width:605px;
+        background-image:url(bg.jpg)}
+        ul {
+            width: 640px;
+            list-style-type: none;
+            margin-left:165px;
+            margin-bottom: 0px;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+            border:1px solid black;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: #3ba1c5;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            padding-left: 165px;
+            text-align: right;
+            padding: 16px;
+            text-decoration: none;
+          }
+    div.transheader{
+        margin: 0px 148px 0px 165px;
+        margin-bottom: 0px;
+        background-color: black;
+        height: 105px;
+        width:640px;
+        border:1px solid black;
+        opacity: 0.6;
+    }
+    div.transheader h1{
+        color: white;
+        font-family: system-ui;
+        align-content: center;
+    }
+    img {
+        position:absolute;
+        margin: -65px 148px 0px 10px;
+        height: 85px;
+        opacity: 1;
+    }
+    .sections{
+        display: flex;
+        background-color: #333333;
+        margin-left: 165px;
+        width: 640px;
+        height: 390px;
+        margin-bottom: 0px;
+        border:1px solid black;
+    }
+    .sections>div{
+        width: 33.33%;
+        height: 210px;
+        padding: 80px 10px 15px 3px;
+        font-size: 13px;
+        color: white;
+
+    }
+    .FreeTradeZone a{
+        color:#3ba1c5;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        align-self: flex-end;
+    }
+    .WhoWeAre a{
+        color:#3ba1c5;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        align-self: flex-end;
+    }
+    .OurAdvantage a{
+        color:#3ba1c5;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        align-self: flex-end;
+    }
+    footer{
+        ul {
+            width: 640px;
+            list-style-type: none;
+            margin-left:165px;
+            margin-bottom: 0px;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+            border:1px solid black;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            padding-left: 165px;
+            text-align: right;
+            padding: 16px;
+            text-decoration: none;
+          }
+    }

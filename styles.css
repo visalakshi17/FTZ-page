@@ -1,0 +1,86 @@
+body{
+    height:902px;
+    width:605px;
+    background-image:url(bg.jpg)}
+header ul {
+    width: 640px;
+    list-style-type: none;
+    margin-top: 36px;
+    margin-left:165px;
+    margin-bottom: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border:1px solid black;
+  }
+  
+  header li {
+    float: left;
+  }
+  header li a {
+    display: block;
+    color: #3ba1c5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding-left: 165px;
+    text-align: end;
+    padding: 16px;
+    text-decoration: none;
+  }
+header img {
+  position:absolute;
+  margin: -65px 500px 0px 170px;
+  height: 85px;
+  opacity: 1;
+}
+.sections{
+  display: flex;
+  background-color: black;
+  margin-top: 30px;
+  margin-left: 165px;
+  height:382px;
+  width: 640px;
+  border:1px solid black;
+  opacity: 0.8;
+}
+.sections div{
+  border: 1px solid red
+}
+.sections>img{
+  margin:12px 12px 12px 12px;
+}
+.sidebar li a{
+    color: #0eace5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+}
+.sidebar{
+  flex:3
+}
+.sidebar img{
+  padding: 18px 18px 0px 18px;
+  width:176px;
+  height: 75px;
+}
+.OurServices{
+  flex:7;
+  padding: 12px 12px 12px 12px;
+  color: white;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.OurServices a{
+  color: #0eace5;
+}
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
